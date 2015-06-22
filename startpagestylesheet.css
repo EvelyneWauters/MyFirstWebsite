@@ -1,14 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 
+body{background-image: url(tumblr_lh2aqf4Rw61qb8342o1_1280.jpg);
+    opacity: 0.95;
+         }
+.balk{background-color: #381e0e;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 15rem;
+    padding-right:15rem;
+    text-align: justify;
+        }
+
+button{font-family:'Slabo 27px', serif;
+        font-size: larger;
+        border: hidden;
+        }
+
+button:hover{transform: translate(0,5px); }
+
 h1{text-color: #ffffff;
     font-family:'Slabo 27px', serif;
     text-align: center;
     background-color: #756148;
     padding: 3rem 3rem 3rem 3rem;}
 
-span.summary{
+.summary{   margin-left: 30%;
+            margin-top: 5%;
+            padding: 1rem 25rem 2rem 2rem;
+            background-color: #756148;
+            width: 20%;
             background-image: url(Evelyne.JPG);
             background-repeat: no-repeat;
+            background-size: 50%;
             background-position: right;
             }
 
